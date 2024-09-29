@@ -1,6 +1,6 @@
-# Q&A-and-RAG-with-SQL-and-TabularData
+# ChatQL
 
-`Q&A-and-RAG-with-SQL-and-TabularData` is a chatbot project that utilizes <u>GPT 3.5</u>, <u>Langchain</u>, <u>SQLite</u>, and <u>ChromaDB</u> and allows users to interact (perform <u>Q&A</u> and <u>RAG</u>) with SQL databases, CSV, and XLSX files using natural language.
+`ChatQL` is a chatbot project that utilizes <u>GPT 3.5</u>, <u>Langchain</u>, <u>SQLite</u>, and <u>ChromaDB</u> and allows users to interact (perform <u>Q&A</u> and <u>RAG</u>) with SQL databases, CSV, and XLSX files using natural language.
 
 **Key NOTE:** Remember to NOT use a SQL databbases with WRITE privileges. Use only READ and limit the scope. Otherwise your user could manupulate the data (e.g ask your chain to delete data).
 
@@ -9,8 +9,6 @@
 - Chat with preprocessed CSV and XLSX data.
 - Chat with uploaded CSV and XSLX files during the interaction with the user interface.
 - RAG with Tabular datasets.
-
-**YouTube video: [Link](https://youtu.be/ZtltjSjFPDg?si=0EomljP6HIEfCEwZ)** 
 
 ## Main underlying techniques used in this chatbot:
 - LLM chains and agents
